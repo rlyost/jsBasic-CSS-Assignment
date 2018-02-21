@@ -46,8 +46,11 @@
             width: 720px;
             border-radius: 25px;
             background-color: #0e1822;
+            color: #b7cdde;
+            font-size: 11.5pt;
             display: inline-block;
-            padding: 10px;
+            padding-left: 15px;
+            padding-top: 30px;
          }
          #footer{
             height: 40px;
@@ -61,15 +64,22 @@
          }
          .a {
             list-style-type: disc;
-            color: white;
             margin-left: 20px;
          }
          .b {
             list-style-type: circle;
             margin-left: 40px;
          }
+         .c {
+            list-style-type: disc;            
+            color: #b7cdde;   
+            margin-left: 30px;
+         }
          a:link, a:visited {
              color: #66d8e1;
+         }
+         h2 {
+            color: #c2d7eb;
          }
       </style>
    </head>
@@ -95,7 +105,19 @@
                <li>Quiz</li>
             </ul>
          </div>
-         <div id="main_content"></div>
+         <div id="main_content">
+            <h3>JavaScript Basics</h3>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+            </p><br>
+            <ul class="c">
+               <li>Variable Declaration JavaScript variables are containers for storing daa values - imagine a cup you fill with coffee, the cup holds that coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names are called indentifiers. var.x;</li>
+               <li>Variable Assignment Assignment operators assign values to JavaScript variables - our cup cannow have coffee poured in it, giving our variable a value to hold. The = assignemetn operator assigns a value to a variable. var x = 10;</li>
+               <li>Data Types Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitives: Boolean - true or False; null - null aka nothing; Number - 42 or 3.14159; String - "Coding Dojo Rocks!"; Array = [1, 'Coding', 2, 'Dojo']; and Object - {first_name: 'Jane', last_name: 'Doe'}</li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </ul>
+         </div>
          <div id="footer">For more useful information check out this url: <a href="http://codingdojo.com">JavaScript!</a></div>
       </div>
    </body>
